@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/src.dir/src/main.cpp.o  -o src /usr/local/lib/libcpprest.2.10.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -framework CoreFoundation -framework Security 
