@@ -1,18 +1,11 @@
-#include <httpserver.hpp>
+#include <cpprest/http_client.h>
+#include <cpprest/filestream.h>
 
-using namespace httpserver;
-class TodoResource : public http_resource {
-  public:
-    const std::shared_ptr<http_response> render(const http_request&){
-      return std::shared_ptr<http_response>(new string_response("hello world"));
-    }
-};
+using namespace utility;                    // Common utilities like string conversions
+using namespace web;                        // Common features like URIs.
+using namespace web::http;                  // Common HTTP functionality
+using namespace web::http::client;          // HTTP client features
+using namespace concurrency::streams;       // Asynchronous streams
 
-int main(int argc, char *argv[]){
-  webserver server = httpserver::create_webserver(8080);
-  TodoResource todoEndpoint;
-
-  server.register_resource("/todo", &todoEndpoint);
-  server.start(true);
-  return 0;
+int main(int argc, char* argv[]){
 }

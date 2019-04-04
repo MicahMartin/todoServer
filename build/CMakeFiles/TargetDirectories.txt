@@ -1,0 +1,3 @@
+/Users/martin/dev/cpp/todoServer/build/CMakeFiles/rebuild_cache.dir
+/Users/martin/dev/cpp/todoServer/build/CMakeFiles/edit_cache.dir
+/Users/martin/dev/cpp/todoServer/build/CMakeFiles/server.dir
