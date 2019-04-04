@@ -79,13 +79,11 @@ server_EXTERNAL_OBJECTS =
 
 server: CMakeFiles/server.dir/src/main.cpp.o
 server: CMakeFiles/server.dir/build.make
-server: /usr/local/lib/libcpprest.2.10.dylib
 server: /usr/local/lib/libboost_thread-mt.dylib
 server: /usr/local/lib/libboost_chrono-mt.dylib
 server: /usr/local/lib/libboost_date_time-mt.dylib
 server: /usr/local/lib/libboost_atomic-mt.dylib
-server: /usr/lib/libssl.dylib
-server: /usr/lib/libcrypto.dylib
+server: /usr/local/lib/libhttpserver.dylib
 server: CMakeFiles/server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/martin/dev/cpp/todoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)

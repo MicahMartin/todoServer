@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_FLAGS =   -std=gnu++1z
 
-CXX_DEFINES = -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO
+CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/martin/dev/cpp/todoServer/include -I/Users/martin/dev/cpp/todoServer/libs -isystem /opt/local/include 
+CXX_INCLUDES = -I/Users/martin/dev/cpp/todoServer/include -I/Users/martin/dev/cpp/todoServer/libs 
 

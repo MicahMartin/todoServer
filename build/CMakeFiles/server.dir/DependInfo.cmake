@@ -8,17 +8,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "CPPREST_FORCE_HTTP_CLIENT_ASIO"
-  "CPPREST_FORCE_HTTP_LISTENER_ASIO"
-  )
-
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../libs"
-  "/opt/local/include"
   )
 
 # Targets to which this target links.

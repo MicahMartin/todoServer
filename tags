@@ -196,7 +196,7 @@ main	build/CMakeFiles/3.9.1/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	
 main	build/CMakeFiles/3.9.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
 main	build/CMakeFiles/feature_tests.c	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f	typeref:typename:int
 main	build/CMakeFiles/feature_tests.cxx	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f	typeref:typename:int
-main	src/main.cpp	/^int main(int argc, char* argv[]){$/;"	f	typeref:typename:int
+main	src/main.cpp	/^int main(void){$/;"	f	typeref:typename:int
 preinstall	build/Makefile	/^preinstall: all$/;"	t
 preinstall/fast	build/Makefile	/^preinstall\/fast:$/;"	t
 qnxnto	build/CMakeFiles/3.14.1/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *

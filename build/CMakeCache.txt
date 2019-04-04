@@ -230,6 +230,15 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a file.
+LIBHTTPSERVER_INCLUDE_DIRS:PATH=/usr/local/include
+
+//Path to a library.
+LIBHTTPSERVER_LIBRARIES:FILEPATH=/usr/local/lib/libhttpserver.dylib
+
+//The directory containing a CMake configuration file for LibHttpServer.
+LibHttpServer_DIR:PATH=LibHttpServer_DIR-NOTFOUND
+
 //Path to a library.
 OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/libcrypto.dylib
 
@@ -253,6 +262,9 @@ ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/libz.dylib
 
 //The directory containing a CMake configuration file for cpprestsdk.
 cpprestsdk_DIR:PATH=/usr/local/lib/cpprestsdk
+
+//The directory containing a CMake configuration file for libhttpserver.
+libhttpserver_DIR:PATH=libhttpserver_DIR-NOTFOUND
 
 //Value Computed by CMake
 main_BINARY_DIR:STATIC=/Users/martin/dev/cpp/todoServer/build
@@ -446,6 +458,10 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/libcrypto.dylib][/opt/lo
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
 FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/libz.dylib][/usr/include][v1.2.11()]
+//ADVANCED property for variable: LIBHTTPSERVER_INCLUDE_DIRS
+LIBHTTPSERVER_INCLUDE_DIRS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LIBHTTPSERVER_LIBRARIES
+LIBHTTPSERVER_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
 OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR
