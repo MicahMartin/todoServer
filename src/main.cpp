@@ -1,5 +1,6 @@
 #include <httpserver.hpp>
 #include "../include/resources/Index.h"
+#include "../include/resources/TaskList.h"
 
 
 int main(void){
@@ -8,8 +9,10 @@ int main(void){
   });
 
   Index index;
+  TaskList taskList;
 
   server.register_resource("/", &index);
+  server.register_resource("/task", &taskList);
 
   server.start(true);
   return 0;
